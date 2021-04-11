@@ -10,4 +10,9 @@ function monkeyCount(n) {
     return monkey;
 }
 
-console.log(monkeyCount(8));
+//MakeUpperCase
+//Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+    return str.toUpperCase();
+}
