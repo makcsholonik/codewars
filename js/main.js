@@ -4,7 +4,7 @@
 
 function monkeyCount(n) {
     let monkey = []; // создаём пустой массив
-    for (let i = 1; i<=n; i++) {
+    for (let i = 1; i <= n; i++) {
         monkey.push(i); // пробегаемся циклом for, каждое число по порядку пушим в массив пока она не будет n
     }
     return monkey;
@@ -15,4 +15,21 @@ function monkeyCount(n) {
 
 function makeUpperCase(str) {
     return str.toUpperCase();
+}
+
+//Thinkful - Logic Drills: Traffic light
+//You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+// Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.
+
+function updateLight(current) {
+    switch (current) {
+        case 'green':
+            return 'yellow';
+        case 'yellow':
+            return 'red';
+        case 'red':
+            return 'green';
+        default:
+            return current
+    }
 }
