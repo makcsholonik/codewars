@@ -4,9 +4,10 @@
 // The input string will only consist of lower case letters and/or spaces.
 
 function getCount(str) {
-    var vowelsCount = 0;
-
-    // enter your majic here
-
-    return vowelsCount;
+    const vowelsCount = (str.match(/[aeiou]/gi) || []).length
+    return vowelsCount
 }
+
+// function getCount(str) {
+//     return (str.match(/[aeiou]/ig)||[]).length;
+// }
