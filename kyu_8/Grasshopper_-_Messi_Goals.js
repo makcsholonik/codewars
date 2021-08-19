@@ -23,6 +23,7 @@ const copaDelReyGoals = 5;
 
 const totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals;
 
+
 /*
 var laLigaGoals = 43;
 var championsLeagueGoals = 10;
